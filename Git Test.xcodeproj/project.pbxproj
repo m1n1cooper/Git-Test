@@ -23,6 +23,7 @@
 		1805E33E18E9687700207675 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805E33D18E9687700207675 /* Git_TestTests.m */; };
 		1805E34918E96C4700207675 /* JTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805E34818E96C4700207675 /* JTTest.m */; };
 		1805E34C18E96DF300207675 /* JTTestAgain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805E34B18E96DF300207675 /* JTTestAgain.m */; };
+		1805E34F18E96F0600207675 /* JTReTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805E34E18E96F0600207675 /* JTReTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +56,12 @@
 		1805E33918E9687700207675 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1805E33B18E9687700207675 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1805E33D18E9687700207675 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		1805E34718E96C4700207675 /* JTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTest.h; sourceTree = "<group>"; };
-		1805E34818E96C4700207675 /* JTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTest.m; sourceTree = "<group>"; };
-		1805E34A18E96DF300207675 /* JTTestAgain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTestAgain.h; sourceTree = "<group>"; };
-		1805E34B18E96DF300207675 /* JTTestAgain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTestAgain.m; sourceTree = "<group>"; };
+		1805E34718E96C4700207675 /* JTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTTest.h; path = ../JTTest.h; sourceTree = "<group>"; };
+		1805E34818E96C4700207675 /* JTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTTest.m; path = ../JTTest.m; sourceTree = "<group>"; };
+		1805E34A18E96DF300207675 /* JTTestAgain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTTestAgain.h; path = ../JTTestAgain.h; sourceTree = "<group>"; };
+		1805E34B18E96DF300207675 /* JTTestAgain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTTestAgain.m; path = ../JTTestAgain.m; sourceTree = "<group>"; };
+		1805E34D18E96F0600207675 /* JTReTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTReTest.h; path = ../JTReTest.h; sourceTree = "<group>"; };
+		1805E34E18E96F0600207675 /* JTReTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTReTest.m; path = ../JTReTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +91,6 @@
 		1805E30618E9687600207675 = {
 			isa = PBXGroup;
 			children = (
-				1805E34718E96C4700207675 /* JTTest.h */,
-				1805E34818E96C4700207675 /* JTTest.m */,
-				1805E34A18E96DF300207675 /* JTTestAgain.h */,
-				1805E34B18E96DF300207675 /* JTTestAgain.m */,
 				1805E31818E9687600207675 /* Git Test */,
 				1805E33718E9687600207675 /* Git TestTests */,
 				1805E31118E9687600207675 /* Frameworks */,
@@ -122,6 +121,12 @@
 		1805E31818E9687600207675 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				1805E34718E96C4700207675 /* JTTest.h */,
+				1805E34818E96C4700207675 /* JTTest.m */,
+				1805E34A18E96DF300207675 /* JTTestAgain.h */,
+				1805E34B18E96DF300207675 /* JTTestAgain.m */,
+				1805E34D18E96F0600207675 /* JTReTest.h */,
+				1805E34E18E96F0600207675 /* JTReTest.m */,
 				1805E32118E9687600207675 /* JTAppDelegate.h */,
 				1805E32218E9687600207675 /* JTAppDelegate.m */,
 				1805E32418E9687600207675 /* Main.storyboard */,
@@ -262,6 +267,7 @@
 			files = (
 				1805E32318E9687600207675 /* JTAppDelegate.m in Sources */,
 				1805E34C18E96DF300207675 /* JTTestAgain.m in Sources */,
+				1805E34F18E96F0600207675 /* JTReTest.m in Sources */,
 				1805E34918E96C4700207675 /* JTTest.m in Sources */,
 				1805E32918E9687600207675 /* JTViewController.m in Sources */,
 				1805E31F18E9687600207675 /* main.m in Sources */,
